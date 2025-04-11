@@ -21,7 +21,7 @@ Bu loyiha FastAPI asosida yozilgan oddiy Learning Management System (LMS) API hi
 ```bash
 git clone [https://github.com/your-username/pdp-school-api.git](https://github.com/abdusamadovv28/dae.git)
 cd pdp-school-api
-
+```
 
 <img width="1697" alt="Screenshot 2025-04-11 at 10 01 15" src="https://github.com/user-attachments/assets/348a7991-4273-4f71-888d-fe1604c7fec4" />
 
