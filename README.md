@@ -14,25 +14,18 @@ Bu loyiha FastAPI asosida yozilgan oddiy Learning Management System (LMS) API hi
 - FastAPI
 - Uvicorn (dev server)
 
-## 📦 O'rnatish
 
-1. Repository'ni clone qiling:
-
-```bash
-git clone [https://github.com/your-username/pdp-school-api.git](https://github.com/abdusamadovv28/dae.git)
-cd pdp-school-api
-```
 
 <img width="1697" alt="Screenshot 2025-04-11 at 10 01 15" src="https://github.com/user-attachments/assets/348a7991-4273-4f71-888d-fe1604c7fec4" />
 
 
-## O'rnatish
+## 📦 O'rnatish
 
 Ushbu loyihani lokalda ishga tushirish uchun:
 
 1. Repozitoriyani klonlash:
    ```bash
-   git clone https://github.com/PDPSchoolTeam/FastApi-model.git
+   git clone [https://github.com/abdusamadovv28/dae.git]
    cd school-api
    ```
 2. Virtual muhit yaratish:
@@ -48,20 +41,21 @@ Ushbu loyihani lokalda ishga tushirish uchun:
    ```bash
    uvicorn main:app --reload
    ```
-## API Endpoints
+📚 API Endpoints
+```bash
+   GET /api/school – Barcha maktablar
+   
+   GET /api/school/{school_name} – Muayyan nomdagi maktab
+   
+   POST /api/school – Yangi maktab qo‘shish
+   
+   GET /api/student – Barcha talabalar
+   
+   GET /api/student/{student_name} – Muayyan nomdagi talaba
+   
+   POST /api/student – Yangi talaba qo‘shish
+```
 
-### Maktablar
-   ```bash
-   GET /api/school: Barcha maktablarni olish.
-   POST /api/school: Yangi maktab yaratish.
-   GET /api/school/{school_name}: Maktabni nomi bo'yicha olish.
-   ```
-### O'quvchilar
-   ```bash
-   GET /api/student: Barcha o'quvchilarni olish.
-   POST /api/student: Yangi o'quvchi yaratish.
-   GET /api/student/{student_name}: O'quvchini nomi bo'yicha olish.
-   ```
 ### Misol
 
 Barcha o'quvchilarni olish uchun:
