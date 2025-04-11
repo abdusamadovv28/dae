@@ -4,12 +4,24 @@ Bu FastAPI asosidagi API, maktab uchun ta'lim boshqaruv tizimi (LMS). Bu API, ma
 
 ## Xususiyatlar
 
-- **Barcha maktablarni olish**: Baza ichidagi barcha maktablarni ko'rsatish.
-- **Yangi maktab yaratish**: Maktabni nomi, xonasi va o'qituvchisi bilan qo'shish.
-- **Maktabni nomi bo'yicha olish**: Maxsus maktabni nomiga qarab olish.
-- **Barcha o'quvchilarni olish**: Baza ichidagi barcha o'quvchilarni ko'rsatish.
-- **Yangi o'quvchi yaratish**: Yangi o'quvchi qo'shish, ism, email, xona va o'qishga qabul qilingan sana bilan.
-- **O'quvchini nomi bo'yicha olish**: Maxsus o'quvchini ismi bilan olish.
+# 🏫 PDP School API LMS
+
+Bu loyiha FastAPI asosida yozilgan oddiy Learning Management System (LMS) API hisoblanadi. U maktablar va talabalar haqidagi ma'lumotlar bilan ishlashga mo'ljallangan.
+
+## ⚙️ Texnologiyalar
+
+- Python 3.10+
+- FastAPI
+- Uvicorn (dev server)
+
+## 📦 O'rnatish
+
+1. Repository'ni clone qiling:
+
+```bash
+git clone [https://github.com/your-username/pdp-school-api.git](https://github.com/abdusamadovv28/dae.git)
+cd pdp-school-api
+
 
 <img width="1697" alt="Screenshot 2025-04-11 at 10 01 15" src="https://github.com/user-attachments/assets/348a7991-4273-4f71-888d-fe1604c7fec4" />
 
