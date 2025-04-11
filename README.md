@@ -85,9 +85,9 @@ Barcha o'quvchilarni olish uchun:
    Content-Type: application/json
 
    {
-     "name": "John Doe",
-     "email": "john.doe@example.com",
-     "room_id": 101,
+     "name": "Firstname lastname",
+     "email": "usename@example.com",
+     "room_id": 123,
      "since": "2022-01-01"
    }
    ```
