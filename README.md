@@ -55,7 +55,24 @@ Ushbu loyihani lokalda ishga tushirish uchun:
    
    POST /api/student – Yangi talaba qo‘shish
 ```
-
+📁 Loyihani Tuzilishi
+```bash
+   app/main.py – Asosiy API logikasi
+   
+   app/model.py – Pydantic modellari (School, Student)
+   
+   app/data.py – Soxta ma'lumotlar bazasi (school_db, student_db)
+```
+🛠 Yaxshilanishlar (Tavsiya)
+```bash
+   Ma'lumotlar bazasi sifatida SQLite yoki PostgreSQL ulash
+   
+   CRUD operatsiyalarni to‘liq amalga oshirish
+   
+   Ma'lumotlar fayl emas, real DB orqali boshqarilishi
+   
+   FastAPI Depends orqali autentifikatsiya qo‘shish
+```
 ### Misol
 
 Barcha o'quvchilarni olish uchun:
